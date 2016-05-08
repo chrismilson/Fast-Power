@@ -42,7 +42,7 @@ int main(int argc, char **argv) {
     scanf("\n %d", &modulo);
   }
 
-  printf("answer is %lld\n", fastPow(base, exponent, modulo));
+  printf("The answer is %lld\n", fastPow(base, exponent, modulo));
 
   return 0;
 }
